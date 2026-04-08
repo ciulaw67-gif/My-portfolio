@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio – Law Lecturer, DIU</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Georgia, serif; background: #f5f5f0; color: #222; }
+    .hero {
+      background: linear-gradient(135deg, #042C53 0%, #185FA5 100%);
+      color: white; padding: 3rem 2rem 2.5rem; text-align: center;
+    }
+    .avatar {
+      width: 100px; height: 100px; border-radius: 50%;
+      background: rgba(255,255,255,0.2); border: 3px solid rgba(255,255,255,0.5);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 34px; font-weight: bold; color: white; margin: 0 auto 1.2rem;
+    }
+    .hero h1 { font-size: 28px; margin-bottom: 6px; }
+    .hero .subtitle { font-size: 16px; opacity: 0.88; margin-bottom: 3px; }
+    .badge-row { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-top: 1rem; }
+    .badge {
+      background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.35);
+      border-radius: 20px; padding: 5px 16px; font-size: 13px; color: white;
+    }
+    .container { max-width: 740px; margin: 0 auto; padding: 2rem 1.25rem; }
+    .section { margin-bottom: 2rem; }
+    .section-title {
+      font-size: 12px; font-weight: bold; color: #777;
+      text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem;
+      border-bottom: 1px solid #ddd; padding-bottom: 6px;
+    }
+    .card {
+      background: white; border: 1px solid #e0e0d8;
+      border-radius: 10px; padding: 1rem 1.25rem; margin-bottom: 10px;
+    }
+    .card h3 { font-size: 16px; font-weight: bold; margin-bottom: 3px; color: #1a1a1a; }
+    .card p { font-size: 14px; color: #555; line-height: 1.6; }
+    .card .year { font-size: 12px; color: #999; margin-bottom: 4px; }
+    .info-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    .info-table td { padding: 8px 6px; border-bottom: 1px solid #eee; }
+    .info-table tr:last-child td { border-bottom: none; }
+    .info-table td:first-child { color: #888; width: 130px; font-size: 13px; }
+    .info-table a { color: #185FA5; text-decoration: none; }
+    .tag-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+    .tag {
+      background: #eef4fb; border: 1px solid #c0d8f0;
+      border-radius: 20px; padding: 5px 14px; font-size: 13px; color: #0d3c68;
+    }
+    footer { text-align: center; padding: 2rem 1rem; font-size: 13px; color: #aaa; }
+  </style>
+</head>
+<body>
+
+<!-- ============================================================
+     HOW TO EDIT THIS FILE:
+     1. Open this file in Notepad (right-click > Open with > Notepad)
+     2. Replace all the [PLACEHOLDER] text with your real info
+     3. Save the file (Ctrl+S)
+     4. Double-click the file to open it in your browser
+     ============================================================ -->
+
+<div class="hero">
+  <!-- Change the two letters below to your initials -->
+  <div class="avatar">AR</div>
+
+  <!-- Change your full name -->
+  <h1>Adv. [Your Full Name]</h1>
+
+  <!-- Change your title and department -->
+  <p class="subtitle">Lecturer, Department of Law</p>
+  <p class="subtitle">Daffodil International University, Dhaka</p>
+
+  <!-- Change your degrees — add or remove badges as needed -->
+  <div class="badge-row">
+    <span class="badge">LL.B.</span>
+    <span class="badge">LL.M.</span>
+    <span class="badge">Bar-at-Law</span>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- ABOUT SECTION -->
+  <div class="section">
+    <div class="section-title">About</div>
+    <div class="card">
+      <!-- Write 2–3 sentences about yourself below -->
+      <p>
+        A dedicated legal educator and researcher with expertise in [Your Specialization,
+        e.g., Constitutional Law or Criminal Law]. Committed to fostering analytical thinking
+        and professional ethics among the next generation of legal practitioners in Bangladesh.
+        [Add one more sentence about your teaching philosophy or goals.]
+      </p>
+    </div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <div class="section">
+    <div class="section-title">Contact & Info</div>
+    <div class="card">
+      <table class="info-table">
+        <tr>
+          <td>Email</td>
+          <td><a href="mailto:yourname@diu.edu.bd">yourname@diu.edu.bd</a></td>
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td>+880 1XXX-XXXXXX</td>
+        </tr>
+        <tr>
+          <td>Office</td>
+          <td>Room [No.], Law Building, DIU Campus, Ashulia, Dhaka-1341</td>
+        </tr>
+        <tr>
+          <td>LinkedIn</td>
+          <!-- Replace the URL below with your actual LinkedIn profile link -->
+          <td><a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></td>
+        </tr>
+        <tr>
+          <td>ORCID / ResearchGate</td>
+          <!-- Delete this row if you don't have one -->
+          <td><a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX" target="_blank">orcid.org/XXXX-XXXX-XXXX-XXXX</a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- EDUCATION SECTION -->
+  <div class="section">
+    <div class="section-title">Education</div>
+
+    <!-- Copy and paste one of these cards for each degree -->
+    <div class="card">
+      <div class="year">20XX – 20XX</div>
+      <h3>LL.M. — [University Name]</h3>
+      <p>Specialization in [Subject, e.g., International Human Rights Law]</p>
+    </div>
+
+    <div class="card">
+      <div class="year">20XX – 20XX</div>
+      <h3>LL.B. (Hons.) — [University Name]</h3>
+      <p>Major in [Subject]</p>
+    </div>
+
+    <!-- Add Bar Council enrollment if applicable -->
+    <div class="card">
+      <div class="year">20XX</div>
+      <h3>Enrolled Advocate — Bangladesh Bar Council</h3>
+      <p>Enrollment No. [Your Number]</p>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE SECTION -->
+  <div class="section">
+    <div class="section-title">Teaching Experience</div>
+
+    <div class="card">
+      <div class="year">20XX – Present</div>
+      <h3>Lecturer — Department of Law, DIU</h3>
+      <p>Courses taught: [e.g., Constitutional Law, Contract Law, Criminal Law, Evidence Act]</p>
+    </div>
+
+    <!-- Add more experience cards if needed -->
+    <!-- <div class="card">
+      <div class="year">20XX – 20XX</div>
+      <h3>[Previous Position] — [Organization]</h3>
+      <p>[Brief description]</p>
+    </div> -->
+  </div>
+
+  <!-- RESEARCH INTERESTS SECTION -->
+  <div class="section">
+    <div class="section-title">Research Interests</div>
+    <div class="card">
+      <!-- Add or remove tags to match your interests -->
+      <div class="tag-grid">
+        <span class="tag">Constitutional Law</span>
+        <span class="tag">Human Rights</span>
+        <span class="tag">Criminal Justice</span>
+        <span class="tag">Bangladesh Legal System</span>
+        <span class="tag">International Law</span>
+        <span class="tag">Cyber Law</span>
+        <!-- Add more: <span class="tag">Your Topic</span> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- PUBLICATIONS SECTION — delete this section if you have none yet -->
+  <div class="section">
+    <div class="section-title">Publications & Research</div>
+
+    <div class="card">
+      <div class="year">20XX</div>
+      <h3>[Title of Your Paper or Article]</h3>
+      <p>Published in <em>[Journal or Conference Name]</em>, Vol. [X], Issue [X]</p>
+    </div>
+
+    <div class="card">
+      <div class="year">20XX</div>
+      <h3>[Title of Another Paper]</h3>
+      <p>Published in <em>[Journal or Conference Name]</em></p>
+    </div>
+
+  </div>
+
+  <!-- COURSES TAUGHT -->
+  <div class="section">
+    <div class="section-title">Courses Currently Teaching</div>
+    <div class="card">
+      <div class="tag-grid">
+        <span class="tag">Constitutional Law</span>
+        <span class="tag">Contract Law</span>
+        <span class="tag">Criminal Law</span>
+        <span class="tag">Evidence Act</span>
+        <span class="tag">Law of Torts</span>
+        <!-- Add or remove your courses -->
+      </div>
+    </div>
+  </div>
+
+</div><!-- end container -->
+
+<footer>
+  <p>© 2026 [Your Full Name] &nbsp;·&nbsp; Department of Law, Daffodil International University</p>
+</footer>
+
+</body>
+</html>
